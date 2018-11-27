@@ -2,7 +2,7 @@
 dividendo = int(input("Escribe el dividendo: "))
 divisor = int(input("Escribe el divisor: "))
 
-if divisor < 1 or dividendo < 1:
+if divisor == 0:
     print("No puedes dividir por 0")
 else:
     cociente= dividendo // divisor
